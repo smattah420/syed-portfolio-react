@@ -2,8 +2,8 @@ import SectionWrapper from "./SectionWrapper";
 
 export default function About() {
   // We use a fallback URL so the site doesn't crash if your photo is missing
-  const profilePic = "../src/assets/my-image.png"; 
-  const fallbackPic = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80";
+  const profilePic = "../src/assets/my-image.png";
+  const fallbackPic = "../src/assets/my-image.png";
   return (
     <SectionWrapper id="about" className="bg-secondary/10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
